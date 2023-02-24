@@ -1,0 +1,19 @@
+{
+  "name": "token_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createscheduledtx": "cd scripts;node createScheduledTx.js",
+    "start:getscheduledtxinfo": "cd scripts;node getScheduledTxInfo.js",
+    "start:deletescheduledtx": "cd scripts;node deleteScheduledTx.js",
+    "start:submitsignature": "cd scripts;node submitSignature.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

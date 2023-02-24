@@ -1,0 +1,19 @@
+{
+  "name": "token_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createfungible": "cd scripts;node createToken.js",
+    "start:queryfungible": "cd scripts;node queryBalance.js",
+    "start:updatefungible": "cd scripts;node updateToken.js",
+    "start:transferfungible": "cd scripts;node transferToken.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

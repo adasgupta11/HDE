@@ -1,0 +1,19 @@
+{
+  "name": "consensus_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createtopic": "cd scripts;node createTopic.js",
+    "start:subscribe": "cd scripts;node subscribeTopic.js",
+    "start:submitmessage": "cd scripts;node submitMessage.js",
+    "start:getTopicMessage": "cd scripts;node getTopicMessage.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

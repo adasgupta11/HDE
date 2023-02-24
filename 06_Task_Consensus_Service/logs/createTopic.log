@@ -1,0 +1,29 @@
+Created a new TopicCreateTransaction with admin and submit key both set to: 302a300506032b65700321003e94c5c085f18981ac58c330e526a5081b084a58e3b81311f152e8359afc9712
+TransactionReceipt {
+  status: Status { _code: 22 },
+  accountId: null,
+  fileId: null,
+  contractId: null,
+  topicId: TopicId {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 3566490, high: 0, unsigned: false },
+    _checksum: null
+  },
+  tokenId: null,
+  scheduleId: null,
+  exchangeRate: ExchangeRate {
+    hbars: 30000,
+    cents: 242176,
+    expirationTime: 2023-02-24T15:00:00.000Z,
+    exchangeRateInCents: 8.072533333333332
+  },
+  topicSequenceNumber: Long { low: 0, high: 0, unsigned: false },
+  topicRunningHash: Uint8Array(0) [],
+  totalSupply: Long { low: 0, high: 0, unsigned: false },
+  scheduledTransactionId: null,
+  serials: [],
+  duplicates: [],
+  children: []
+}
+Your topic ID is: 0.0.3566490
