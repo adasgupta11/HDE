@@ -68,8 +68,6 @@ async function createSchedule(){
     const scheduleId = receipt.scheduleId;
     console.log("The schedule ID is " +scheduleId);
 
-    //const scheduledId = "0.0.3565670"
-
     //Create the transaction
     const rawTransaction = await new ScheduleSignTransaction()
         .setScheduleId(scheduleId)
@@ -81,6 +79,7 @@ async function createSchedule(){
 }
 
 async function submitSignature(transactionBytes,user1Key){
+    
     const transaction = Transaction.fromBytes(transactionBytes);
     await user1Key.signTransaction(transaction);
 
