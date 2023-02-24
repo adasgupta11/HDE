@@ -33,7 +33,7 @@ Each Task project has 2 main subfolder - scripts & log .
  node transferTokenAfterPause.js
 
  ### Logs
-
+Hedera_certification/02_Task_Token_Service/logs
 
 
 ## Task - Smart Contract Service

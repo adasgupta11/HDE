@@ -39,7 +39,7 @@ async function main() {
 
     //Create the transfer transaction
     const transaction = await new TransferTransaction()
-        .addApprovedHbarTransfer(account2Id, new Hbar(-20))
+        .addApprovedHbarTransfer(account1Id, new Hbar(-20))
         .addHbarTransfer(account3Id, new Hbar(20))
         .freezeWith(client);
 
