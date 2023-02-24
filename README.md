@@ -13,6 +13,7 @@ Each Task project has 2 main subfolder - scripts & log .
  ### Steps to execute Setup Tasks
  goto Hedera_certification/01_Task_Setup/scripts path. Then execute -
    node createMultiAccout.js
+   
  ### Logs
 
 
@@ -24,6 +25,12 @@ Each Task project has 2 main subfolder - scripts & log .
 ## Task - Token Service
 
  ### Steps to execute Setup Tasks
+ node createToken.js
+ node transferToken.js
+ node pauseTokeen.js
+ node transferTokenAfterPause.js
+ node unpauseToken.js
+ node transferTokenAfterPause.js
 
  ### Logs
 
@@ -32,33 +39,40 @@ Each Task project has 2 main subfolder - scripts & log .
 ## Task - Smart Contract Service
 
  ### Steps to execute Setup Tasks
-
+ goto Hedera_certification/06_Task_Consensus_Service/scripts
+ execute node deploy.js
+ execute node callFunction.js
  ### Logs
-
+Hedera_certification/03_SmartContract_Service/logs
 
 
 
 ## Task - Scheduled Transaction Service
 
  ### Steps to execute Setup Tasks
-
+goto scripts folder
+node createSchueduledTx.js
  ### Logs
-
+Hedera_certification/04_Scheduled_TX/logs
 
 
 ## Task - Multi Signature Service
 
  ### Steps to execute Setup Tasks
-
+  goto scripts folder
+node accoutAllowance.js
+node allowanceTransfer.js
  ### Logs
-
+Hedera_certification/05_MultiSignature_Service/logs
 
 ## Task - Consensus Service
 
  ### Steps to execute Setup Tasks
-
+ goto scripts folder
+node createTopic.js
+node submitMessage.js
  ### Logs
-
+Hedera_certification/06_Task_Consensus_Service/logs
 
 
 

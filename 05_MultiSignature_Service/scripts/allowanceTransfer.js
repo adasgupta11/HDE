@@ -1,11 +1,7 @@
 const {
     Wallet,
-    KeyList,
     PrivateKey,
-    AccountCreateTransaction,
-    AccountAllowanceApproveTransaction,
     TransferTransaction,
-    TransactionId,
     Hbar,
     AccountId,
     Client
@@ -38,12 +34,12 @@ async function main() {
 
     const client = Client.forTestnet();
 
-    client.setOperator(myAccountId, myPrivateKey);
+    client.setOperator(account2Id, account2Key);
 
 
     //Create the transfer transaction
     const transaction = await new TransferTransaction()
-        .addApprovedHbarTransfer(account1Id, new Hbar(20).negated())
+        .addApprovedHbarTransfer(account2Id, new Hbar(-20))
         .addHbarTransfer(account3Id, new Hbar(20))
         .freezeWith(client);
 
